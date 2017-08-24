@@ -1,0 +1,33 @@
+{
+  "name": "passport-alipay",
+  "version": "0.1.0",
+  "description": "OAuth 2.0 for 支付宝生活号",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mackwan84/passport-alipay.git"
+  },
+  "keywords": [
+    "passport",
+    "alipay"
+  ],
+  "author": "Mac Kwan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mackwan84/passport-alipay/issues"
+  },
+  "homepage": "https://github.com/mackwan84/passport-alipay#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "json3": "^3.3.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "node-rsa": "^0.4.2",
+    "passport": "^0.4.0",
+    "passport-strategy": "^1.0.0",
+    "request-promise": "^4.2.1"
+  }
+}
